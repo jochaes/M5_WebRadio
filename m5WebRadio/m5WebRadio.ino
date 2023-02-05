@@ -23,25 +23,25 @@ const char *SSID = "fchaves";
 const char *PASSWORD = "72599389";
 const int bufferSize = 128 * 1024;  // buffer in byte, default 16 * 1024 = 16kb
 char *arrayURL[10] = {
-  "http://streams.radio.co/s419eaa350/listen",
-  "http://centova.hostingtico.com:7010/;*.nsv",                 //Sigue sin funcionar
-  "http://dreamsiteradiocp2.com/proxy/rmcostarica?mp=/stream",  // Se queda pegadillo
-  "http://live.turadio.stream/9312/stream/1/",                     // Se queda pegadillo
+  "http://cdn4.onstream.audio:9131/stream",
+  "http://streams.y2kwebs.com:9310/stream;",                 //Sigue sin funcionar
+  "http://streams.y2kwebs.com:9972/;",  // Se queda pegadillo
+  "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CR.mp3",                     // Se queda pegadillo
   "http://24083.live.streamtheworld.com/BESAME_CR_SC",
-  "http://centova.hostingtico.com:7008/stream/1/",        //No funciona
-  "http://26513.live.streamtheworld.com/QTEJA_CRAAC_SC",  //Lo Deja Pegado
+  "http://dispatcher.rndfnk.com/crtve/rne5/rio/mp3/high",        //No funciona
+  "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one",  //Lo Deja Pegado
   "http://streamer.radio.co/s3293a5a15/listen",
-  "http://strw1.openstream.co/2401?aw_0_1st.collectionid%3D6340%26stationId%3D6340%26publisherId%3D2425%26k%3D1665811575%26aw_0_azn.pcountry%3D%5B%22US%22%2C%22ES%22%2C%22DE%22%2C%22GB%22%2C%22AU%22%2C%22CA%22%2C%22AR%22%2C%22BR%22%2C%22FR%22%2C%22IT%22%5D%26aw_0_azn.planguage%3D%5B%22es%22%2C%22en%22%5D%26aw_0_azn.pgenre%3D%5B%22Music%22%2C%22Classic+Rock%22%2C%22Rock%22%5D&listenerid=1665811581050_0.4708338660039775&awparams=companionAds%3Atrue&aw_0_1st.version=1.1.11%3Ahtml5",
+  "http://croonerradio_elvispresley.ice.infomaniak.ch/croonerradio-elvispresley-midfi.mp3"
   "http://radio.vaticannews.va/stream-es"
 };
 String arrayStation[10] = {
-  "Aqui.... Columbia",
-  "Radio Fides",
-  "Radio Maria",
-  "Musical",
+  "Monumental",
+  "Radio Hit",
+  "Sinfonola",
+  "Los 40",
   "Besame",
-  "Omega",
-  "La Caliente",
+  "RNE 5",
+  "BBC One",
   "Columbia Estereo",
   "Elvis Radio",
   "Radio Vaticano"
